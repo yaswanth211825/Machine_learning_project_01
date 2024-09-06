@@ -19,7 +19,7 @@ Countplot of Correct vs Incorrect Predictions: Shows the number of correct and i
 Example visualization:
 
 python
-Copy code
+
 sns.countplot(x='Actual Winner', hue='Predicted Winner', data=comparison_df, palette='Set2')
 plt.title('Actual Winner vs Predicted Winner')
 Future Work
